@@ -29,20 +29,19 @@ a:active { text-decoration: none; }
     width: 200px;
 }
 #Home_button {
-
     color: #66ffff;
 }
 
 #info_button {
-
+    color: #66ffb3;
 }
 
-#experience_button {
-
+#exp_button {
+    color: #d876d8;
 }
 
 #contact_button {
-
+    color: #ff6666;
 }
 
 #MeTitle {
@@ -86,5 +85,4 @@ a:active { text-decoration: none; }
     list-style: none;
     text-align: center
 }
-
 
