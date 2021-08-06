@@ -1,0 +1,89 @@
+body {
+    background-color: #3c4346;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+#nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    color: white;
+}
+
+.interactive {
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;  
+}
+
+#mepicture {
+    width: 200px;
+}
+#Home_button {
+    color: #66ffff;
+}
+
+#info_button {
+    color: #66ffb3;
+}
+
+#exp_button {
+    color: #d876d8;
+}
+
+#contact_button {
+    color: #ff6666;
+}
+
+#MeTitle {
+    align-items: center;
+    padding: 40px;
+}
+
+#MoreMe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+#AdditionalInfo {
+    display: flex;
+
+    justify-content: space-around;
+}
+
+#InterestsText {
+    text-align: center;
+    padding: 20px;
+}
+
+#AnimeText {
+    text-align: center;
+    padding: 20px;
+}
+#Experience {
+    padding: 40px;
+}
+
+#Contact {
+    padding: 40px;
+    text-align: center;
+}
+
+#contact_list {
+    text-decoration: none;
+    list-style: none;
+    text-align: center
+}
+
+
