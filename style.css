@@ -25,28 +25,15 @@ a:active { text-decoration: none; }
     text-decoration: none;  
 }
 
+#Origin {
+    text-align: center;
+}
+
 #mepicture {
     width: 200px;
 }
-#Home_button {
+.headText {
     color: #66ffff;
-}
-
-#info_button {
-    color: #66ffb3;
-}
-
-#exp_button {
-    color: #d876d8;
-}
-
-#contact_button {
-    color: #ff6666;
-}
-
-#MeTitle {
-    align-items: center;
-    padding: 40px;
 }
 
 #MoreMe {
@@ -59,7 +46,7 @@ a:active { text-decoration: none; }
 #AdditionalInfo {
     display: flex;
 
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 #InterestsText {
@@ -67,10 +54,17 @@ a:active { text-decoration: none; }
     padding: 20px;
 }
 
-#AnimeText {
+#ExtraText {
     text-align: center;
+
     padding: 20px;
 }
+
+#moreInfo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 #Experience {
     padding: 40px;
 }
@@ -86,3 +80,6 @@ a:active { text-decoration: none; }
     text-align: center
 }
 
+.extra {
+    display: none;
+}

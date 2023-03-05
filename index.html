@@ -6,50 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
     <link rel="stylesheet" href="style.css">
+    <script src="sketch.js" defer></script>
 </head>
 <body>
     <div id="header">
         <ul id="nav">
-            <li class="interactive">
-                <a id='Home_button' href="https://www.youtube.com/watch?v=veutrJ7Y8_8&ab_channel=YoKaze">Home</a>
+            <li class="interactive" id="Home_Button">
+                <a href="" class="headText">Home</a>
             </li>
-            <li class="interactive">
-                <a id='info_button' href="https://www.youtube.com/watch?v=veutrJ7Y8_8&ab_channel=YoKaze">About Me</a>
-                </li>
-            <li class="interactive">
-                <a id='exp_button' href="https://www.youtube.com/watch?v=veutrJ7Y8_8&ab_channel=YoKaze">Experience</a>
+            <li class="interactive" id="info_button">
+                <a href="" class="headText">About Me</a>
             </li>
-            <li class="interactive">
-                <a id='contact_button' href="https://www.youtube.com/watch?v=veutrJ7Y8_8&ab_channel=YoKaze">Contact Info</a>
+            <li class="interactive" id="exp_button">
+                <a href="" class="headText">Experience</a>
+            </li>
+            <li class="interactive" id="contact_button">
+                <a href="" class="headText">Contact Info</a>
             </li>
         </ul>
 
     </div>
     
-    <div id="Aboutme">
+    <div id="Origin">
+        <h1>Welcome to my website!</h1>
+        <!-- <h2>Not really sure why you're here but hi</h2> -->
+    </div>
+
+    <div id="Aboutme" class="extra">
         <h2 id="MeTitle">About Me</h2>
             <div id="MoreMe">
-                <p>Hi! I'm Joshua and I'm a senior at The Urban School of San Francisco</p>
+                <p>Hi! I am Joshua Jue. I am a first year computer science major studying at Rose-Hulman Institue of Technology.</p>
                 <img id="mepicture" src="/images/shanghai me.JPG">
             </div>
-            <div id="AdditionalInfo">
-                <div id="InterestsText">
-                    <h3>Interests</h3>
-                    <p>I'm interested in lots of things</p>
-                </div>
-                <div id="AnimeText">
-                    <h3>Anime</h3>
-                    <p>I like anime</p>
+            <div id="moreInfo">
+                <div id="AdditionalInfo">
+                    <div id="InterestsText">
+                        <h3>Interests</h3>
+                        <p>I'm interested in lots of things there are many things that interest me but really like how much of it really interests me</p>
+                    </div>
+                    <div id="ExtraText">
+                        <h3>Lots of Info</h3>
+                        <p>Gacha is fun</p>
+                    </div>
                 </div>
             </div>
     </div>
 
-    <div id="Experience">
+    <div id="Experience" class="extra">
         <h2>Experience</h2>
-        <p>I did like a coding thing so like I'm really experienced at being experienced at something.</p>
+            <div id="GARP" class="experience">
+                <h4>Genetic Alorithm Research Project</h3>
+                <h6>Rose-Hulman CSSE 220 Project</h5>
+                <p></p>
+            </div>
+        
+        
+            <div id="othello" class="exprience">
+        
+        
+            </div>
+        
+        
+            <div id="webmaster" class="exprience">
+                <h4></h4>
+                
+            </div>
     </div>
 
-    <div id="Contact">
+    <div id="Contact" class="extra">
         <h2>Contact Info</h2>
             <ul id="contact_list">
                 <li>
@@ -63,5 +87,12 @@
                 </li>
             </ul>
     </div>
+
+    <div>
+        <button></button>
+    </div>
+
+    <script type="text/javascript" src="components.js"></script>
+
 </body>
 </html>
